@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lane1 {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 92%; 
+    border: solid 1px black;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.lane1izq {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.lane1der {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+.encab {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 5%;
+    padding: 0 7.5%;
+}
+
+
+
+.logo1 {
+    display: flex;
+    align-self: self-start;
+    color: white; 
+    height: 50%;
+    width: 45%;
+    background-color: blue;
+    padding-top: 2%;
+    padding-left: 3.5%;
+    margin: 7%;
+    border: solid 1px black
+}
+
+.menu1 {
+    color: white;
+    display: flex;
+    align-self: self-end;
+    background-color: rgb(95, 150, 11);
+    height: 50%;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-right: 45%;
+    padding-left: 3%;
+    border: solid 1px black;
+}
+
+.menu2 {
+    color: white;
+    display: flex;
+    align-self: self-end;
+    height: 50%;
+    width: 90%;
+    padding-left: 2%;
+    background-color: rgb(112, 16, 16);
+    border: solid 1px black;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.lane2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: 92%; 
+    margin: 10px;
+}
+
+.divizq {
+    color:white;
+    width: 230px;    
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+}
+
+.divmed {
+    color:white;
+    width: 230px;   
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(52, 155, 141);
+}
+
+.divder {
+    color: white;
+    align-items: center;
+    width: 230px;    
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(241, 146, 22);
+}
+
+.der , .izq , .med , .der2{
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.iz2 {
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.lane3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: 92%;
+    margin:10px
+}
+
+.divizq2 {
+    width: 482px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(2, 74, 15);
+}
+
+.divder2 {
+    width: 230px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(182, 71, 3);
+}
+
+.lane4 {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 92%; 
+    border-radius: 10px ;
+    background-color: aqua;
+    margin:10px;
+}
+
+.pie {
+    font-size: 20px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.elemento {
+    color: white;
+    width: 15%;
+    border: 2px solid black; 
+    padding-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    background-color: rgb(43, 43, 172);
+    align-self: flex-end;
+}
