@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../diseño/disTP.css">
+    <link rel="shortcut icon" href="../fotos/icon.jpg">
+</head>
+<body>
+    <div class="container-fluid row text-center">
+        <div class="col-2 bg-light">
+            <img src="../fotos/paraform-removebg-preview.png">
+        </div>
+        <div class="col-4 bg-light text-dark">
+            <h1 class="mt-4">CLUB ATLÉTICO INDEPENDIENTE</h1>
+            <h4>Asociación Civil</h4>
+        </div>
+        <div class="col-6 bg-light text-dark text-center solisocio" >
+            <h2 class="mt-4">Solicitud de Socio</h2>
+            <h4>Ad Referendum de su Aprobación por la Comisión Directiva</h4>
+        </div>
+    </div>
+
+    <div class="container ">
+
+        <form class="row mt-3 g-3 needs-validation" novalidate>
+           <div class="col-6">
+            <label for="nameId" class="formLabel">Nombre/s</label>
+            <input type="text" class="form-control" id="nameId" name="nombre" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-6">
+            <label for="apellidoId" class="formLabel">Apellido/s</label>
+            <input type="text" class="form-control" id="apellidoId" name="apellido" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-4">
+            <label for="fechaId" class="formLabel">Fecha de Nacimiento</label>
+            <input type="text" class="form-control" id="fechaId" name="fecha" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-4">
+            <label for="dniId" class="formLabel">D.N.I/L.C/L.E</label>
+            <input type="text" class="form-control" id="dniId" name="dni" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-4">
+            <label for="nacionalidadId" class="formLabel">Nacionalidad</label>
+            <input type="text" class="form-control" id="nacionalidadId" name="nacionalidad" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-6">
+            <label for="domicilioId" class="formLabel">Domicilio</label>
+            <input type="text" class="form-control" id="domicilioId" name="domicilio" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-4">
+            <label for="ciudadId" class="formLabel">Ciudad</label>
+            <input type="text" class="form-control" id="ciudadId" name="ciudad" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-2">
+            <label for="cpId" class="formLabel">Código Postal</label>
+            <input type="text" class="form-control" id="cpId" name="cp" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-6">
+            <label for="emailId" class="formLabel">Email</label>
+            <input type="text" class="form-control" id="emailId" name="email" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-6">
+            <label for="celularId" class="formLabel">Télefono Celular</label>
+            <input type="text" class="form-control" id="celularId" name="celular" required>
+            <div class="valid-feedback">
+            </div>
+            <div class="invalid-feedback">
+            </div>
+           </div>
+
+           <div class="col-12">
+             <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms" name="terminos" required>
+                <label for="form-check-label">Acepto los términos y condiciones</label>
+                <div class="valid-feedback">
+                </div>
+                <div class="invalid-feedback">
+                    Debes aceptar los Términos y Condiciones.
+                </div>
+             </div>
+           </div>
+
+           <button class="btn btn-primary">Enviar</button>
+
+        </form>
+
+        
+
+       
+    </div>
+    <script src="form.js"></script>
+    <script>
+
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    
+    }, false)
+  })
+  
+})()
+
+
+    </script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+</body>
+</html>

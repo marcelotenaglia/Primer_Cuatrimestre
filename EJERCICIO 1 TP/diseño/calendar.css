@@ -1,0 +1,19 @@
+.calendario {
+   
+    height: 300px;
+    width: 95%;
+}
+
+.gameInfo {
+    height: 100px;
+}
+
+.escudosPic {
+    height: 198px;
+}
+
+.escudos {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+}
